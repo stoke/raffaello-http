@@ -1,0 +1,24 @@
+{
+  "name": "raffaello-http",
+  "version": "0.0.1",
+  "description": "http plugin for raffaello",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "connect": "*",
+    "raffaello": "git://github.com/stoke/Raffaello.git"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "request": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec test/test-http.js"
+  },
+  "repository": "",
+  "author": "stoke",
+  "license": "MIT"
+}
