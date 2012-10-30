@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "connect": "*",
-    "raffaello": "git://github.com/stoke/Raffaello.git"
+    "raffaello": "git://github.com/stoke/raffaello.git"
   },
   "devDependencies": {
     "mocha": "*",
